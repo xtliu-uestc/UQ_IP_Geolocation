@@ -24,6 +24,39 @@ pip install scikit-learn
 
 ## Folder Structure
 
+```plaintext
+DEGeo/EBGeo
+├── datasets # Contains three large-scale real-world IP geolocation datasets.
+│   ├── New_York # IP geolocation dataset collected from New York City including 12 landmarks.
+│   ├── Los_Angeles # IP geolocation dataset collected from Los Angeles including 15 landmarks.
+│   └── Shanghai # IP geolocation dataset collected from Shanghai including 12 landmarks.
+├── lib # Contains model implementation files
+│   ├── layers.py # Contains model implementation files.
+│   ├── model.py # The core source code of the proposed EBGeo/DEGeo.
+│   └── utils.py # Auxiliary functions, including the code of uncertainty quantification functions.
+├── asset # Contains saved checkpoints and logs when running the model
+│   ├── log # Contains logs when running the model.
+│   └── model # Contains the saved checkpoints.
+├── preprocess.py # Preprocess dataset and execute IP clustering for the model running.
+├── main.py # Run model for training and testing.
+├── test.py # Load checkpoint and then test the model.
+
+
+
+
+## The description of hyperparameters used in `main.py`
+
+| Hyperparameter   | Description                                                                |
+|------------------|----------------------------------------------------------------------------|
+| `model_name`     | the name of model                                                          |
+| `dataset`        | the dataset used by main.py                                                |
+| `lambda`         | the trade-off coefficient of loss function                                 |
+| `lr`             | learning rate                                                              |
+| `harved_epoch`   | when how many consecutive epochs the performance does not increase, the learning rate is halved |
+| `early_stop_epoch` | when how many consecutive epochs the performance does not increase, the training stops. |
+| `saved_epoch`    | how many epochs to save checkpoint for the testing                         |
+| `seed`           | the random number seed used for parameter initialization during training   |
+| `dim_in`         | the dimension of input data                                                |
 
 
 
