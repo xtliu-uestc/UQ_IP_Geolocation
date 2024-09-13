@@ -1,5 +1,5 @@
-# 项目名称
-这是一个描述项目的简短介绍。
+# Advancing IP Geolocation Robustness Through the Lens of Uncertainty Quantification
+This repository provides the original PyTorch implementation of the UQ_IP_Geolocation framework.
 
 ## 功能
 - 功能 1
