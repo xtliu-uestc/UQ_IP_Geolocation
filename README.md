@@ -1,6 +1,6 @@
-# TrustGeo: Trustworthy Geolocation Model
+# Advancing IP Geolocation Robustness Through the Lens of Uncertainty Quantification
 
-TrustGeo is a model designed for accurate and trustworthy geolocation prediction. It combines uncertainty quantification techniques to enhance the reliability of geolocation results.
+This repository provides the original PyTorch implementation of the UQ_IP_Geolocation framework.
 
 ## Table of Contents
 - [Features](#features)
@@ -22,13 +22,13 @@ The code was tested with `python 3.8.13`, `PyTorch 1.12.1`, `cudatoolkit 11.6.0`
 ### Create virtual environment
 
 ```bash
-conda create --name TrustGeo python=3.8.13
+conda create --name UQGeo python=3.8.13
 ```
 
 ### Activate environment
 
 ```bash
-conda activate TrustGeo
+conda activate UQGeo
 ```
 
 ### Install PyTorch & Cudatoolkit
