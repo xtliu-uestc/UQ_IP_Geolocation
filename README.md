@@ -44,18 +44,10 @@ conda install numpy pandas
 pip install scikit-learn
 ```
 
-## Installation
+## Folder Structure
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/ICDM-UESTC/TrustGeo.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd TrustGeo
-   ```
 
-3. Install the dependencies as outlined in the [Environmental Requirements](#environmental-requirements) section.
+
 
 ## Usage
 
