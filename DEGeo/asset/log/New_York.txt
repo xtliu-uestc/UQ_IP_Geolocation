@@ -1,0 +1,17 @@
+*********New_York*********
+dim_in=30, early_stop_epoch=50, harved_epoch=5, saved_epoch=200, *********New_York*********
+dim_in=30, early_stop_epoch=50, harved_epoch=5, saved_epoch=200, learning_rate=0.005, model_name=MLPGeo, seed=2022,
+*********New_York*********
+dim_in=30, early_stop_epoch=50, harved_epoch=5, saved_epoch=200, learning_rate=0.005, model_name=MLPGeo, seed=2022,
+*********New_York*********
+dim_in=30, early_stop_epoch=50, harved_epoch=5, saved_epoch=200, learning_rate=0.005, model_name=MLPGeo, seed=2022,
+*********New_York*********
+dim_in=30, early_stop_epoch=50, harved_epoch=5, saved_epoch=200, learning_rate=0.005, model_name=MLPGeo, seed=2022,
+*********New_York*********
+dim_in=30, early_stop_epoch=50, harved_epoch=5, saved_epoch=200, learning_rate=0.005, model_name=MLPGeo, seed=2022,
+*********New_York*********
+dim_in=30, early_stop_epoch=50, harved_epoch=5, saved_epoch=1, learning_rate=0.005, model_name=MLPGeo, seed=2022,
+*********New_York*********
+dim_in=30, early_stop_epoch=50, harved_epoch=5, saved_epoch=50, learning_rate=0.005, model_name=MLPGeo, seed=2022,
+*********New_York*********
+dim_in=30, early_stop_epoch=50, harved_epoch=5, saved_epoch=50, learning_rate=0.005, model_name=MLPGeo, seed=2022,

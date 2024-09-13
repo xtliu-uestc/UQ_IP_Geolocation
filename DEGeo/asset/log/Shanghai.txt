@@ -1,0 +1,6 @@
+*********Shanghai*********
+dim_in=51, early_stop_epoch=50, harved_epoch=5, saved_epoch=200, learning_rate=0.0015, model_name=MLPGeo, seed=2022,
+*********Shanghai*********
+dim_in=51, early_stop_epoch=50, harved_epoch=5, saved_epoch=50, learning_rate=0.0015, model_name=MLPGeo, seed=2022,
+*********Shanghai*********
+dim_in=51, early_stop_epoch=50, harved_epoch=5, saved_epoch=50, learning_rate=0.0015, model_name=MLPGeo, seed=2022,

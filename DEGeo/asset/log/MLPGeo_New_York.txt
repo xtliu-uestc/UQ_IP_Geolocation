@@ -1,0 +1,99 @@
+
+*********epoch=50*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.5971, AUSE (Summation): 0.5942
+
+*********epoch=100*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6511, AUSE (Summation): 0.6479
+
+*********epoch=150*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6652, AUSE (Summation): 0.6619
+
+*********epoch=200*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6258, AUSE (Summation): 0.6227
+
+*********epoch=250*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6380, AUSE (Summation): 0.6348
+
+*********epoch=300*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6239, AUSE (Summation): 0.6207
+
+*********epoch=350*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6076, AUSE (Summation): 0.6046
+
+*********epoch=400*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6568, AUSE (Summation): 0.6535
+
+*********epoch=450*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6959, AUSE (Summation): 0.6924
+
+*********epoch=500*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6464, AUSE (Summation): 0.6432
+
+*********epoch=550*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6309, AUSE (Summation): 0.6278
+
+*********epoch=600*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6522, AUSE (Summation): 0.6490
+
+*********epoch=650*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6458, AUSE (Summation): 0.6426
+
+*********epoch=700*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6303, AUSE (Summation): 0.6271
+
+*********epoch=750*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6830, AUSE (Summation): 0.6796
+
+*********epoch=800*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6892, AUSE (Summation): 0.6857
+
+*********epoch=850*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6985, AUSE (Summation): 0.6950
+
+*********epoch=900*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6186, AUSE (Summation): 0.6155
+
+*********epoch=950*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6314, AUSE (Summation): 0.6282
+
+*********epoch=1000*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.7124, AUSE (Summation): 0.7089
+
+*********epoch=1050*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6797, AUSE (Summation): 0.6763
+
+*********epoch=1100*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6584, AUSE (Summation): 0.6551
+
+*********epoch=1150*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6472, AUSE (Summation): 0.6440
+
+*********epoch=1200*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6623, AUSE (Summation): 0.6590
+
+*********epoch=1250*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6330, AUSE (Summation): 0.6299
+
+*********epoch=1300*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6682, AUSE (Summation): 0.6648
+
+*********epoch=1350*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6490, AUSE (Summation): 0.6457
+
+*********epoch=1400*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6240, AUSE (Summation): 0.6209
+
+*********epoch=1450*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.5847, AUSE (Summation): 0.5818
+
+*********epoch=1500*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6293, AUSE (Summation): 0.6262
+
+*********epoch=1550*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6977, AUSE (Summation): 0.6942
+
+*********epoch=1600*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.6899, AUSE (Summation): 0.6865
+
+*********epoch=1650*********
+test: nll: 0.000	AUSE (Trapezoidal): 0.7037, AUSE (Summation): 0.7002
