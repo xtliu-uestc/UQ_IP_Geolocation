@@ -108,11 +108,11 @@ DEGeo/EBGeo
 
 ## Dataset Information
 
-The "datasets" folder contains three subfolders corresponding to three large-scale real-world street-level IP geolocation datasets collected from New York City, Los Angeles, and Shanghai. There are three files in each subfolder:
+The "datasets" folder contains three subfolders corresponding to three large-scale real-world IP geolocation datasets collected from New York City, Los Angeles, and Shanghai. There are three files in each subfolder:
 
-- `data.csv` # features (including attribute knowledge and network measurements) and labels (longitude and latitude) for street-level IP geolocation
-- `ip.csv` # IP addresses
-- `last_traceroute.csv` # last four routers and corresponding delays for efficient IP host clustering
+- `data.csv` # features (including attribute knowledge and network measurements) and labels (longitude and latitude) for street-level IP geolocation.
+- `ip.csv` # IP addresses.
+- `last_traceroute.csv` # last four routers and corresponding delays for efficient IP host clustering.
 
 The detailed columns and description of `data.csv` in the New York dataset are as follows:
 
@@ -136,3 +136,5 @@ The detailed columns and description of `data.csv` in the New York dataset are a
 
 PS: The detailed columns and description of `data.csv` in the other two datasets are similar to the New York dataset.
 
+​
+The code of SCSE is developed based on the code of [TrustGeo]_(https://github.com/ICDM-UESTC/TrustGeo) and GraphGeo.
