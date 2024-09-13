@@ -106,38 +106,33 @@ DEGeo/EBGeo
 | `lambda_1`        | The trade-off coefficient in the loss function, balancing between different objectives or regularization terms in the loss function. |
 | `load_epoch`      | The epoch number from which a model checkpoint is loaded to continue training or testing. |
 
+## Dataset Information
 
+The "datasets" folder contains three subfolders corresponding to three large-scale real-world street-level IP geolocation datasets collected from New York City, Los Angeles, and Shanghai. There are three files in each subfolder:
 
+- `data.csv` # features (including attribute knowledge and network measurements) and labels (longitude and latitude) for street-level IP geolocation
+- `ip.csv` # IP addresses
+- `last_traceroute.csv` # last four routers and corresponding delays for efficient IP host clustering
 
+The detailed columns and description of `data.csv` in the New York dataset are as follows:
 
+### New York
 
-## Citing TrustGeo
+| Column Name                       | Data Description                                                                 |
+|------------------------------------|----------------------------------------------------------------------------------|
+| `ip`                               | The IPv4 address                                                                 |
+| `as_mult_info`                     | The ID of the autonomous system where IP locates                                 |
+| `country`                          | The country where the IP locates                                                 |
+| `prov_cn_name`                     | The state/province where the IP locates                                          |
+| `city`                             | The city where the IP locates                                                    |
+| `isp`                              | The Internet Service Provider of the IP                                          |
+| `vp900/901/..._ping_delay_time`    | The ping delay from probing hosts "vp900/901/..." to the IP host                 |
+| `vp900/901/..._trace`              | The traceroute list from probing hosts "vp900/901/..." to the IP host            |
+| `vp900/901/..._tr_steps`           | #steps of the traceroute from probing hosts "vp900/901/..." to the IP host       |
+| `vp900/901/..._last_router_delay`  | The delay from the last router to the IP host in the traceroute list from probing hosts "vp900/901/..." |
+| `vp900/901/..._total_delay`        | The total delay from probing hosts "vp900/901/..." to the IP host                |
+| `longitude`                        | The longitude of the IP (as the label)                                           |
+| `latitude`                         | The latitude of the IP host (as the label)                                       |
 
-If you find this work helpful, please consider citing us:
+PS: The detailed columns and description of `data.csv` in the other two datasets are similar to the New York dataset.
 
-```bibtex
-@misc{trustgeo2024,
-  author = {Author Name, Second Author, Third Author},
-  title = {TrustGeo: Trustworthy Geolocation with Uncertainty Quantification},
-  year = {2024},
-  publisher = {GitHub},
-  journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/ICDM-UESTC/TrustGeo}},
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### README 内容说明：
-1. **项目简介**：开头简要描述了 TrustGeo 的目的和功能。
-2. **特性**：列出了项目的一些关键功能，如不确定性量化、多个数据集支持等。
-3. **环境要求**：使用 Anaconda 安装环境和依赖项的说明。
-4. **安装步骤**：指导用户如何克隆仓库并安装所需的依赖。
-5. **使用指南**：提供了训练、测试和可视化的示例命令，帮助用户快速上手使用模型。
-6. **引用**：提供 BibTeX 引用条目，便于其他研究者在论文中引用该项目。
-7. **许可**：简单说明项目的许可信息。
-
-你可以将此内容复制到你的 `README.md` 文件中，并根据实际情况进行调整。如果需要进一步修改或有其他问题，请告诉我！
