@@ -41,6 +41,9 @@ DEGeo/EBGeo
 ├── main.py # Run model for training and testing.
 ├── test.py # Load checkpoint and then test the model.
 
+
+
+
 # How to run our programs
 ## Run the code with EBGeo
 
