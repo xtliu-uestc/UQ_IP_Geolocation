@@ -43,7 +43,7 @@ DEGeo/EBGeo
 
 
 
-## How to run our programs
+# How to run our programs
 
 ### Run the code with DEGeo
 
