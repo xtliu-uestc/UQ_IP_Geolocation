@@ -40,7 +40,7 @@ DEGeo/EBGeo
 ├── preprocess.py # Preprocess dataset and execute IP clustering for the model running.
 ├── main.py # Run model for training and testing.
 ├── test.py # Load checkpoint and then test the model.
-
+```
 
 
 # How to run our programs
