@@ -7,26 +7,17 @@ This repository provides the original PyTorch implementation of the UQ_IP_Geoloc
 
 The code was tested with `python 3.8.13`, `PyTorch 1.12.1`, `cudatoolkit 11.6.0`, and `cudnn 7.6.5`. Install the dependencies via [Anaconda](https://www.anaconda.com/):
 
-## Create virtual environment
-
 ```bash
+# Create virtual environment
 conda create --name UQGeo python=3.8.13
 
 # Activate environment
-
-```bash
 conda activate UQGeo
-```
 
-### Install PyTorch & Cudatoolkit
-
-```bash
+# Install PyTorch & Cudatoolkit
 conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
-```
 
-### Install other requirements
-
-```bash
+# Install other requirements
 conda install numpy pandas
 pip install scikit-learn
 ```
