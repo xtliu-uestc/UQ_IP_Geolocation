@@ -22,28 +22,7 @@ conda install numpy pandas
 pip install scikit-learn
 ```
 
-## Folder Structure
-
-```plaintext
-DEGeo/EBGeo
-├── datasets # Contains three large-scale real-world IP geolocation datasets.
-│   ├── New_York # IP geolocation dataset collected from New York City including 12 landmarks.
-│   ├── Los_Angeles # IP geolocation dataset collected from Los Angeles including 15 landmarks.
-│   └── Shanghai # IP geolocation dataset collected from Shanghai including 12 landmarks.
-├── lib # Contains model implementation files
-│   ├── layers.py # Contains model implementation files.
-│   ├── model.py # The core source code of the proposed EBGeo/DEGeo.
-│   └── utils.py # Auxiliary functions, including the code of uncertainty quantification functions.
-├── asset # Contains saved checkpoints and logs when running the model
-│   ├── log # Contains logs when running the model.
-│   └── model # Contains the saved checkpoints.
-├── preprocess.py # Preprocess dataset and execute IP clustering for the model running.
-├── main.py # Run model for training and testing.
-├── test.py # Load checkpoint and then test the model.
-```
-
-
-# How to run our programs
+## How to run our programs
 
 ### Run the code with DEGeo
 
@@ -88,6 +67,29 @@ python test.py --dataset "New_York" --lr 1e-6 --dim_in 30
 python test.py --dataset "Los_Angeles" --lr 1e-6 --dim_in 30
 python test.py --dataset "Shanghai" --lr 1.5e-6 --dim_in 51
 ```
+
+## Folder Structure
+
+```plaintext
+DEGeo/EBGeo
+├── datasets # Contains three large-scale real-world IP geolocation datasets.
+│   ├── New_York # IP geolocation dataset collected from New York City including 12 landmarks.
+│   ├── Los_Angeles # IP geolocation dataset collected from Los Angeles including 15 landmarks.
+│   └── Shanghai # IP geolocation dataset collected from Shanghai including 12 landmarks.
+├── lib # Contains model implementation files
+│   ├── layers.py # Contains model implementation files.
+│   ├── model.py # The core source code of the proposed EBGeo/DEGeo.
+│   └── utils.py # Auxiliary functions, including the code of uncertainty quantification functions.
+├── asset # Contains saved checkpoints and logs when running the model
+│   ├── log # Contains logs when running the model.
+│   └── model # Contains the saved checkpoints.
+├── preprocess.py # Preprocess dataset and execute IP clustering for the model running.
+├── main.py # Run model for training and testing.
+├── test.py # Load checkpoint and then test the model.
+```
+
+
+
 
 
 ## Citing TrustGeo
