@@ -88,6 +88,20 @@ DEGeo/EBGeo
 ├── test.py # Load checkpoint and then test the model.
 ```
 
+## The description of hyperparameters used in main.py
+
+| Hyperparameter    | Description                                                           |
+|-------------------|-----------------------------------------------------------------------|
+| `seed`            | The random number seed used for parameter initialization during training, which ensures reproducibility of the model's training process. |                                                   |
+| `dataset`         | the dataset used by main.py                                           |
+| `lambda`          | the trade-off coefficient of loss function                            |
+| `lr`              | learning rate                                                         |
+| `harved_epoch`    | when how many consecutive epochs the performance does not increase, the learning rate is halved |
+| `early_stop_epoch`| when how many consecutive epochs the performance does not increase, the training stops. |
+| `saved_epoch`     | how many epochs to save checkpoint for the testing                    |
+| `seed`            | the random number seed used for parameter initialization during training |
+| `dim_in`          | the dimension of input data                                           |
+
 
 
 
