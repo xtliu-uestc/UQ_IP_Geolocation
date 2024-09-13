@@ -92,15 +92,20 @@ DEGeo/EBGeo
 
 | Hyperparameter    | Description                                                           |
 |-------------------|-----------------------------------------------------------------------|
-| `seed`            | The random number seed used for parameter initialization during training, which ensures reproducibility of the model's training process. |                                                   |
-| `dataset`         | the dataset used by main.py                                           |
-| `lambda`          | the trade-off coefficient of loss function                            |
-| `lr`              | learning rate                                                         |
-| `harved_epoch`    | when how many consecutive epochs the performance does not increase, the learning rate is halved |
-| `early_stop_epoch`| when how many consecutive epochs the performance does not increase, the training stops. |
-| `saved_epoch`     | how many epochs to save checkpoint for the testing                    |
-| `seed`            | the random number seed used for parameter initialization during training |
-| `dim_in`          | the dimension of input data                                           |
+| `seed`            | The random number seed used for parameter initialization during training, which ensures reproducibility of the model's training process. |
+| `model_name`      | The name of the model being trained or tested, used to identify different models. |
+| `dataset`         | The dataset used by `main.py` for training and testing the model.      |
+| `lr`              | The learning rate used during training to control the step size of the optimizer. |
+| `harved_epoch`    | The number of consecutive epochs with no performance improvement after which the learning rate is halved to help the model converge. |
+| `num_epochs`      | The total number of training epochs, defining how many times the model will iterate over the training dataset. |
+| `early_stop_epoch`| The number of consecutive epochs with no performance improvement after which the training process will stop to prevent overfitting. |
+| `saved_epoch`     | The interval (number of epochs) at which a checkpoint is saved, so the model can be tested or resumed later. |
+| `dim_in`          | The dimension of the input data, defining the number of input features fed into the model. |
+| `max_epoch`       | The maximum number of epochs allowed for training, regardless of other stopping criteria. |
+| `ensemble_size`   | The number of models in the ensemble, if ensemble methods are being used to improve model performance. |
+| `lambda_1`        | The trade-off coefficient in the loss function, balancing between different objectives or regularization terms in the loss function. |
+| `load_epoch`      | The epoch number from which a model checkpoint is loaded to continue training or testing. |
+
 
 
 
