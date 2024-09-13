@@ -2,20 +2,8 @@
 
 This repository provides the original PyTorch implementation of the UQ_IP_Geolocation framework.
 
-## Table of Contents
-- [Features](#features)
-- [Environmental Requirements](#environmental-requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Citing TrustGeo](#citing-trustgeo)
-
-## Features
-- **Accurate Geolocation**: Implements advanced machine learning algorithms to predict the geographical location with high accuracy.
-- **Uncertainty Quantification**: Incorporates methods to measure and quantify prediction uncertainty, providing confidence levels along with location predictions.
-- **Support for Multiple Datasets**: Easily adaptable to various datasets including 'New_York', 'Los_Angeles', and 'Shanghai'.
-- **Extensible Framework**: Designed to be extended with additional modules or modified to fit different geolocation requirements.
-
-## Environmental Requirements
+# Basic Usage
+# Environmental Requirements
 
 The code was tested with `python 3.8.13`, `PyTorch 1.12.1`, `cudatoolkit 11.6.0`, and `cudnn 7.6.5`. Install the dependencies via [Anaconda](https://www.anaconda.com/):
 
