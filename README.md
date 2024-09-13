@@ -135,6 +135,3 @@ The detailed columns and description of `data.csv` in the New York dataset are a
 | `latitude`                         | The latitude of the IP host (as the label)                                       |
 
 PS: The detailed columns and description of `data.csv` in the other two datasets are similar to the New York dataset.
-
-​
-The code of SCSE is developed based on the code of [TrustGeo]_(https://github.com/ICDM-UESTC/TrustGeo) and GraphGeo.
