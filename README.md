@@ -27,7 +27,7 @@ pip install scikit-learn
 ### Run the code with DEGeo
 
 ```bash
-# Open the "UQGeo/EBGeo" folder
+# Open the "UQGeo/DEGeo" folder
 cd UQGeo/DEGeo
 
 # data preprocess (executing IP clustering). 
