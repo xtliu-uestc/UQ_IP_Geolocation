@@ -42,32 +42,52 @@ DEGeo/EBGeo
 ├── test.py # Load checkpoint and then test the model.
 
 
+## How to run our programs
 
-## Usage
-
-### Example Command to Train the Model
-
-You can train the TrustGeo model on the 'New_York' dataset using the following command:
+### Run the code with DEGeo
 
 ```bash
-python train.py --dataset "New_York" --epochs 100 --batch_size 32 --learning_rate 0.001
+# Open the "UQGeo/EBGeo" folder
+cd UQGeo/DEGeo
+
+# data preprocess (executing IP clustering). 
+python preprocess.py --dataset "New_York"
+python preprocess.py --dataset "Los_Angeles"
+python preprocess.py --dataset "Shanghai"
+
+# run the model DEGeo
+python main.py --dataset "New_York" --lr 5e-3 --dim_in 30 --lambda1 7e-3
+python main.py --dataset "Los_Angeles" --lr 3e-3 --dim_in 30 --lambda1 7e-3
+python main.py --dataset "Shanghai" --lr 0.0015 --dim_in 51 --lambda1 1e-3
+
+# load the checkpoint and then test
+python test.py --dataset "New_York" --lr 5e-3 --dim_in 30 --lambda1 7e-3 --load_epoch 400
+python test.py --dataset "Los_Angeles" --lr 3e-3 --dim_in 30 --lambda1 7e-3 --load_epoch 600
+python test.py --dataset "Shanghai" --lr 0.0015 --dim_in 51 --lambda1 1e-3 --load_epoch 200
 ```
 
-### Testing the Model
-
-To evaluate the model performance on the test set, use the following command:
+### Run the code with EBGeo
 
 ```bash
-python test.py --dataset "New_York" --load_model "best_model.pth"
+# Open the "UQGeo/EBGeo" folder
+cd UQGeo/EBGeo
+
+# data preprocess (executing IP clustering). 
+python preprocess.py --dataset "New_York"
+python preprocess.py --dataset "Los_Angeles"
+python preprocess.py --dataset "Shanghai"
+
+# run the model EBGeo
+python main.py --dataset "New_York" --lr 1e-6 --dim_in 30
+python main.py --dataset "Los_Angeles" --lr 1e-6 --dim_in 30 
+python main.py --dataset "Shanghai" --lr 1.5e-3 --dim_in 51
+
+# load the checkpoint and then test
+python test.py --dataset "New_York" --lr 1e-6 --dim_in 30
+python test.py --dataset "Los_Angeles" --lr 1e-6 --dim_in 30
+python test.py --dataset "Shanghai" --lr 1.5e-6 --dim_in 51
 ```
 
-### Visualize Results
-
-To visualize the prediction results, run:
-
-```bash
-python visualize.py --dataset "New_York"
-```
 
 ## Citing TrustGeo
 
