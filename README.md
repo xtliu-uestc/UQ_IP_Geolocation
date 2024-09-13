@@ -1,25 +1,3 @@
-# Advancing IP Geolocation Robustness Through the Lens of Uncertainty Quantification
-This repository provides the original PyTorch implementation of the UQ_IP_Geolocation framework.
-
-## Brief Introduction
-### Environmental Requirements
-  ​
-The code was tested with `python 3.8.13`, `PyTorch 1.12.1`, `cudatoolkit 11.6.0`, and `cudnn 7.6.5`. Install the dependencies via [Anaconda](https://www.anaconda.com/):
-#### Create virtual environment
-​```bash
-conda create --name UQGeo python=3.8.13
-
-- 功能 2
-
-## 安装
-```bash
-# 克隆仓库
-git clone https://github.com/xtliu-uestc/UQ_IP_Geolocation.git
-好的，我会根据你提供的 [TrustGeo GitHub 仓库](https://github.com/ICDM-UESTC/TrustGeo) 编写一个 README 文件的模板。这个 README 将涵盖基本介绍、安装、使用指南和引用部分。
-
-### README 示例模板
-
-```markdown
 # TrustGeo: Trustworthy Geolocation Model
 
 TrustGeo is a model designed for accurate and trustworthy geolocation prediction. It combines uncertainty quantification techniques to enhance the reliability of geolocation results.
